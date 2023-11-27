@@ -35,7 +35,8 @@ class _HomeState extends State<Home> {
         title: const Text('Lebanon Bus (From Beirut)'),
         centerTitle: true,
       ),
-      body: Center(
+      body:
+       Center(
         child: Column(
           children: [
             const SizedBox(height: 20),
@@ -66,6 +67,7 @@ class _HomeState extends State<Home> {
           ],
         ),
       ),
+
     );
   }
 }

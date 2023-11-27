@@ -67,6 +67,21 @@ class _MyDropDownWidgetState extends State<MyDropDownWidget> {
         }).toList());
   }
 }
+class Luggage extends StatefulWidget {
+  final Function(int)updateLuggage;
+  const Luggage({required this.updateLuggage, super.key});
+
+  @override
+  State<Luggage> createState() => _LuggageState();
+}
+
+class _LuggageState extends State<Luggage> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
+
 class LuggageWidget extends StatefulWidget {
   const LuggageWidget({required this.updateLuggage ,super.key});
   final Function(int)updateLuggage;

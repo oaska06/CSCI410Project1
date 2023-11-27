@@ -12,7 +12,9 @@ class Ticket extends StatelessWidget {
       title: const Text('Travel Safe'),
       centerTitle: true,
     ),
-      body: Center(
+      body:
+    Container( decoration: const BoxDecoration(image: DecorationImage(image: AssetImage("assets/image/beirut.jpg"))),
+      child :Center(
         child: Column(
           children: [
             const SizedBox(height: 20),
@@ -26,6 +28,7 @@ class Ticket extends StatelessWidget {
           ],
         ),
       ),
+    ),
     );
   }
 }
